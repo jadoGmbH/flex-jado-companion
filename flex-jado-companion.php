@@ -1,9 +1,12 @@
 <?php
 /**
  * Plugin Name: flex.ja.do Companion
- * Description: Begleit-Plugin für das jadoFlexTheme zur Auslagerung von Plugin-Territorium-Funktionalitäten.
+ * Description: Companion plugin for the jado Flex Theme designed to offload plugin territory functionality.
  * Version: 1.0.1
  * Author: jado GmbH
+ * Author URI: https://www.ja.do/
+ * License: GPL2
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 if (!defined('ABSPATH')) {
