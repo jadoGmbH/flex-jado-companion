@@ -1,31 +1,32 @@
-# flex.ja.do Companion
-
-Companion plugin for the **jado Flex Theme** designed to offload plugin territory functionality. This ensures that essential features remain available even if the theme is switched, following WordPress best practices.
-
+=== flex.ja.do Companion ===
+Contributors: jado
+Tags: jado, flex, companion, roles, security, svg
+Requires at least: 7.0
 Tested up to: 7.0
 Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-## Features
+Companion plugin for the jado Flex Theme designed to offload plugin territory functionality. This ensures that essential features remain available even if the theme is switched, following WordPress best practices.
 
-- **Custom User Roles:** Sets up the `Admin Customer` role with specific capabilities (`manage_jado_options`, `edit_theme_options`) and ensures Administrators have the `manage_jado_options` capability.
-- **Header Cleanup:** Removes unnecessary meta tags and links from the WordPress `<head>` (RSD, WLW Manifest, shortlinks, and WP generator version).
-- **SVG Upload Support:** Safely enables SVG file uploads to the Media Library (controlled via theme settings).
-- **Embeds Management:** Provides the option to disable WordPress embeds on the frontend for improved performance (controlled via theme settings).
-- **Email Encryption Shortcode:** Registers an `[email]` shortcode to help protect email addresses from spam bots (controlled via theme settings).
+== Description ==
 
-## Requirements
+Companion plugin for the jado Flex Theme designed to offload plugin territory functionality.
 
-- **WordPress:** 7.0 or higher.
-- **Theme:** Designed specifically for the [jado Flex Theme](https://flex.ja.do/).
+* **Custom User Roles:** Sets up the Admin Customer role.
+* **Header Cleanup:** Removes unnecessary meta tags.
+* **SVG Upload Support:** Safely enables SVG file uploads.
+* **Embeds Management:** Option to disable WordPress embeds.
+* **Email Encryption Shortcode:** Registers an [email] shortcode.
 
-## Installation
+== Installation ==
 
 1. Upload the `flex-jado-companion` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
-## License
+== Changelog ==
 
-This plugin is licensed under the GPLv2 or later. See the `LICENSE` file for details.
+= 1.0.2 =
+* Updated license info and textdomain.
+* Added translation files.
 
