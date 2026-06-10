@@ -1,0 +1,46 @@
+# Copyright (C) 2026 jado GmbH
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: flex.ja.do Companion\n"
+"POT-Creation-Date: 2026-06-10 15:07+0200\n"
+"PO-Revision-Date: 2026-06-10 15:07+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: flex-jado-companion.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: flex-jado-companion.php:34
+msgid "Admin Customer"
+msgstr "Admin-Kunde"
+
+#. Plugin Name of the plugin/theme
+msgid "flex.ja.do Companion"
+msgstr "flex.ja.do Begleit-Plugin"
+
+#. Description of the plugin/theme
+msgid ""
+"Companion plugin for the jado Flex Theme designed to offload plugin "
+"territory functionality."
+msgstr ""
+"Begleit-Plugin für das jado Flex Theme, um Plugin-spezifische "
+"Funktionalitäten auszulagern."
+
+#. Author of the plugin/theme
+msgid "jado GmbH"
+msgstr "jado GmbH"
+
+#. Author URI of the plugin/theme
+msgid "https://www.ja.do/"
+msgstr "https://www.ja.do/"

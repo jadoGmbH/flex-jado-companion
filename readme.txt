@@ -2,6 +2,11 @@
 
 Companion plugin for the **jado Flex Theme** designed to offload plugin territory functionality. This ensures that essential features remain available even if the theme is switched, following WordPress best practices.
 
+Tested up to: 7.0
+Stable tag: 1.0.2
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
 ## Features
 
 - **Custom User Roles:** Sets up the `Admin Customer` role with specific capabilities (`manage_jado_options`, `edit_theme_options`) and ensures Administrators have the `manage_jado_options` capability.
@@ -22,5 +27,5 @@ Companion plugin for the **jado Flex Theme** designed to offload plugin territor
 
 ## License
 
-This plugin is licensed under the GPL2. See the `LICENSE` file for details.
+This plugin is licensed under the GPLv2 or later. See the `LICENSE` file for details.
 

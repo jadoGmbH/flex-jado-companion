@@ -5,14 +5,14 @@
  * Version: 1.0.2
  * Author: jado GmbH
  * Author URI: https://www.ja.do/
- * License: GPL2
+ * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: flex-jado-companion
  */
 
 if (!defined('ABSPATH')) {
     exit;
 }
-
 
 function jado_companion_setup_roles() {
     if (!function_exists('get_role')) {
@@ -31,7 +31,7 @@ function jado_companion_setup_roles() {
     if (get_role('admincustomer')) {
         remove_role('admincustomer');
     }
-    add_role('admincustomer', __('Admin Customer', 'jadotheme'), $caps);
+    add_role('admincustomer', __('Admin Customer', 'flex-jado-companion'), $caps);
 
     // Administrator die Berechtigung geben
     $admin = get_role('administrator');
