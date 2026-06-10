@@ -2,7 +2,7 @@
 /**
  * Plugin Name: flex.ja.do Companion
  * Description: Companion plugin for the jado Flex Theme designed to offload plugin territory functionality.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: jado GmbH
  * Author URI: https://www.ja.do/
  * License: GPL2
