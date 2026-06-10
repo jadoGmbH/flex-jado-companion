@@ -2,7 +2,7 @@
 /**
  * Plugin Name: flex.ja.do Companion
  * Description: Begleit-Plugin für das jadoFlexTheme zur Auslagerung von Plugin-Territorium-Funktionalitäten.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: jado GmbH
  */
 
@@ -10,10 +10,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-/**
- * Registriert die "Admin Customer" Rolle.
- * Ausgelagert aus functions.php
- */
+
 function jado_companion_setup_roles() {
     if (!function_exists('get_role')) {
         return;
